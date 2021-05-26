@@ -55,8 +55,8 @@ async def main_code():
             print(result)
             print("Thank you for playing")
             again=input("Play again? Y/N ")
-            if (again=="N"):
-                print("Session terminated")
+            if (again=="N") or (again=="n"):
+                print("Thank you for playing! Goodbye")
                 play_again=False
             
 #Asyncronous execution of the main function
